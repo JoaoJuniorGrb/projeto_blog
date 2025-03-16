@@ -1,4 +1,4 @@
---no-binary evdev
+evdev-binary
 altair==5.4.0
 appdirs==1.4.4
 astor==0.8.1
