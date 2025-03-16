@@ -58,6 +58,7 @@ pillow==10.2.0
 plotly==5.23.0
 prompt_toolkit==3.0.47
 protobuf==4.25.2
+psycopg2==2.9.5
 pure_eval==0.2.3
 pyarrow==14.0.2
 pycparser==2.22
