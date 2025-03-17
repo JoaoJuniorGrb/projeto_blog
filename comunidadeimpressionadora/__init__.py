@@ -21,7 +21,7 @@ login_manager.login_message_category = 'alert-info'
 
 from comunidadeimpressionadora import models
 engine = SQLAlchemy.create_engine(app.config['SQLALCHEMY_DATABASE_URI'])
-inspector = sqlalchemy.inspect(engine)
+inspector = SQLAlchemy.inspect(engine)
 if not inspector.has_table('usuario'):
   with app.app_context():
     database.drop_all()
