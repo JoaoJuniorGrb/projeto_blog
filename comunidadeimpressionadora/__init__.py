@@ -29,4 +29,6 @@ if not inspector.has_table('usuario'):
 else:
   print("Banco de dados já existe!")
 
+
+
 from comunidadeimpressionadora import routes
