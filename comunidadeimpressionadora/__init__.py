@@ -26,7 +26,7 @@ if not inspector.has_table('usuario'):
   with app.app_context():
     database.drop_all()
     database.create_all()
-else
+else:
   print("Banco de dados já existe!")
 
 from comunidadeimpressionadora import routes
